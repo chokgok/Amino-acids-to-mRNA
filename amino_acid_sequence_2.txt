@@ -1,0 +1,58 @@
+Enter amino acid sequence: Methionine/ Tryptophan/ Serine/ Cysteine/ Valine
+['methionine', 'tryptophan', 'serine', 'cysteine', 'valine'] 5
+Met: AUG; 1
+Trp: UGG; 1
+Ser: UCU, UCC, UCA, UCG, AGU, AGC; 6
+Cys: UGU, UGC; 2
+Val: GUU, GUC, GUA, GUG; 4
+
+Possible combinations:
+AUG, UGG, UCU, UGU, GUU [0, 0, 0, 0, 0]
+AUG, UGG, UCC, UGU, GUU [0, 0, 1, 0, 0]
+AUG, UGG, UCA, UGU, GUU [0, 0, 2, 0, 0]
+AUG, UGG, UCG, UGU, GUU [0, 0, 3, 0, 0]
+AUG, UGG, AGU, UGU, GUU [0, 0, 4, 0, 0]
+AUG, UGG, AGC, UGU, GUU [0, 0, 5, 0, 0]
+AUG, UGG, UCU, UGC, GUU [0, 0, 0, 1, 0]
+AUG, UGG, UCC, UGC, GUU [0, 0, 1, 1, 0]
+AUG, UGG, UCA, UGC, GUU [0, 0, 2, 1, 0]
+AUG, UGG, UCG, UGC, GUU [0, 0, 3, 1, 0]
+AUG, UGG, AGU, UGC, GUU [0, 0, 4, 1, 0]
+AUG, UGG, AGC, UGC, GUU [0, 0, 5, 1, 0]
+AUG, UGG, UCU, UGU, GUC [0, 0, 0, 0, 1]
+AUG, UGG, UCC, UGU, GUC [0, 0, 1, 0, 1]
+AUG, UGG, UCA, UGU, GUC [0, 0, 2, 0, 1]
+AUG, UGG, UCG, UGU, GUC [0, 0, 3, 0, 1]
+AUG, UGG, AGU, UGU, GUC [0, 0, 4, 0, 1]
+AUG, UGG, AGC, UGU, GUC [0, 0, 5, 0, 1]
+AUG, UGG, UCU, UGC, GUC [0, 0, 0, 1, 1]
+AUG, UGG, UCC, UGC, GUC [0, 0, 1, 1, 1]
+AUG, UGG, UCA, UGC, GUC [0, 0, 2, 1, 1]
+AUG, UGG, UCG, UGC, GUC [0, 0, 3, 1, 1]
+AUG, UGG, AGU, UGC, GUC [0, 0, 4, 1, 1]
+AUG, UGG, AGC, UGC, GUC [0, 0, 5, 1, 1]
+AUG, UGG, UCU, UGU, GUA [0, 0, 0, 0, 2]
+AUG, UGG, UCC, UGU, GUA [0, 0, 1, 0, 2]
+AUG, UGG, UCA, UGU, GUA [0, 0, 2, 0, 2]
+AUG, UGG, UCG, UGU, GUA [0, 0, 3, 0, 2]
+AUG, UGG, AGU, UGU, GUA [0, 0, 4, 0, 2]
+AUG, UGG, AGC, UGU, GUA [0, 0, 5, 0, 2]
+AUG, UGG, UCU, UGC, GUA [0, 0, 0, 1, 2]
+AUG, UGG, UCC, UGC, GUA [0, 0, 1, 1, 2]
+AUG, UGG, UCA, UGC, GUA [0, 0, 2, 1, 2]
+AUG, UGG, UCG, UGC, GUA [0, 0, 3, 1, 2]
+AUG, UGG, AGU, UGC, GUA [0, 0, 4, 1, 2]
+AUG, UGG, AGC, UGC, GUA [0, 0, 5, 1, 2]
+AUG, UGG, UCU, UGU, GUG [0, 0, 0, 0, 3]
+AUG, UGG, UCC, UGU, GUG [0, 0, 1, 0, 3]
+AUG, UGG, UCA, UGU, GUG [0, 0, 2, 0, 3]
+AUG, UGG, UCG, UGU, GUG [0, 0, 3, 0, 3]
+AUG, UGG, AGU, UGU, GUG [0, 0, 4, 0, 3]
+AUG, UGG, AGC, UGU, GUG [0, 0, 5, 0, 3]
+AUG, UGG, UCU, UGC, GUG [0, 0, 0, 1, 3]
+AUG, UGG, UCC, UGC, GUG [0, 0, 1, 1, 3]
+AUG, UGG, UCA, UGC, GUG [0, 0, 2, 1, 3]
+AUG, UGG, UCG, UGC, GUG [0, 0, 3, 1, 3]
+AUG, UGG, AGU, UGC, GUG [0, 0, 4, 1, 3]
+AUG, UGG, AGC, UGC, GUG [0, 0, 5, 1, 3]
+Number of combinations: 48
